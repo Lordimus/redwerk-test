@@ -1,0 +1,36 @@
+{
+  "name": "twentytwentyone-child-theme",
+  "version": "1.0.0",
+  "source": [
+    "assets/styles/front-end/index.scss",
+    "assets/scripts/front-end/index.js",
+    "assets/scripts/admin/index.js"
+  ],
+  "main": "build/custom.js",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "typescript": ">=3.0.0",
+    "wp-types": "^3.62.4"
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "targets": {
+    "modern": {
+      "source": [
+        "assets/styles/front-end/index.scss",
+        "assets/scripts/front-end/index.js",
+        "assets/scripts/admin/index.js"
+      ],
+      "sourceMap": false,
+      "distDir": "dist",
+      "engines": {
+        "browsers": "Chrome 95"
+      }
+    }
+  },
+  "dependencies": {
+  }
+}

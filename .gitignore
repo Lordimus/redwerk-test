@@ -1,0 +1,6 @@
+.idea/
+twentytwentyone-child/node_modules/
+
+# package-lock.json
+twentytwentyone-child/package-lock.lock
+twentytwentyone-child/.parcel-cache
