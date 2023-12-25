@@ -2,5 +2,5 @@
 twentytwentyone-child/node_modules/
 
 # package-lock.json
-twentytwentyone-child/package-lock.lock
+twentytwentyone-child/package-lock.json
 twentytwentyone-child/.parcel-cache
